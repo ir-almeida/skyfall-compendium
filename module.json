@@ -1,0 +1,203 @@
+{
+  "name": "skyfall-compendium",
+  "title": "SkyFall Compendium",
+  "description": "Um compendium oficial de informações sobre o sistema SkyFall para o Foundry VTT.",
+  "version": "0.3.0",
+  "author": "Naicido(BTWings), Paulinha, noise",
+  "authors": [
+    {
+      "name": "Naicido(BTWings)",
+      "email": "adm@btwings.com",
+      "url": "https://github.com/BTWings"
+    }
+  ],
+  "minimumCoreVersion": "0.7.5",
+  "compatibleCoreVersion": "0.7.9",
+  "packs": [
+    {
+      "name": "npcs",
+      "label": "NPCs",
+      "system": "tormenta20",
+      "path": "packs/npcs.db",
+      "entity": "Actor"
+    },
+    {
+      "name": "personagens-canonicos",
+      "label": "Personagens Canônicos",
+      "system": "tormenta20",
+      "path": "packs/personagens-canonicos.db",
+      "entity": "Actor"
+    },
+    {
+      "name": "arquetipos",
+      "label": "Arquétipos",
+      "system": "tormenta20",
+      "path": "packs/arquetipos.db",
+      "entity": "JournalEntry"
+    },
+    {
+      "name": "divindades",
+      "label": "Divindades",
+      "system": "tormenta20",
+      "path": "packs/divindades.db",
+      "entity": "JournalEntry"
+    },
+    {
+      "name": "dragoes-da-nova-alvorada",
+      "label": "Dragões da Nova Alvorada",
+      "system": "tormenta20",
+      "path": "packs/dragoes-da-nova-alvorada.db",
+      "entity": "JournalEntry"
+    },
+    {
+      "name": "legados",
+      "label": "Legados",
+      "system": "tormenta20",
+      "path": "packs/legados.db",
+      "entity": "JournalEntry"
+    },
+    {
+      "name": "lugares",
+      "label": "Lugares",
+      "system": "tormenta20",
+      "path": "packs/lugares.db",
+      "entity": "JournalEntry"
+    },
+    {
+      "name": "maldicoes",
+      "label": "Maldições",
+      "system": "tormenta20",
+      "path": "packs/maldicoes.db",
+      "entity": "JournalEntry"
+    },
+    {
+      "name": "organisacoes",
+      "label": "Organisações",
+      "system": "tormenta20",
+      "path": "packs/organisacoes.db",
+      "entity": "JournalEntry"
+    },
+    {
+      "name": "raiz-e-p-concedidos",
+      "label": "Raiz e P.Legados",
+      "system": "tormenta20",
+      "path": "packs/raiz-e-p-concedidos.db",
+      "entity": "JournalEntry"
+    },
+    {
+      "name": "regioes-opath",
+      "label": "Regiões Opath",
+      "system": "tormenta20",
+      "path": "packs/regioes-opath.db",
+      "entity": "JournalEntry"
+    },
+    {
+      "name": "regras-e-tutoriais",
+      "label": "Regras e Tutoriais",
+      "system": "tormenta20",
+      "path": "packs/regras-e-tutoriais.db",
+      "entity": "JournalEntry"
+    },
+	{
+      "name": "trilhas",
+      "label": "Trilhas",
+      "system": "tormenta20",
+      "path": "packs/trilhas.db",
+      "entity": "JournalEntry"
+    },
+	{
+      "name": "sistema",
+      "label": "Sistema",
+      "system": "tormenta20",
+      "path": "packs/sistema.db",
+      "entity": "JournalEntry"
+    },
+    {
+      "name": "caracteristicas-de-maldicoes",
+      "label": "Caracteristicas de Maldições",
+      "system": "tormenta20",
+      "path": "packs/caracteristicas-de-maldicoes.db",
+      "entity": "Item"
+    },
+    {
+      "name": "dons",
+      "label": "Dons",
+      "system": "tormenta20",
+      "path": "packs/dons.db",
+      "entity": "Item"
+    },
+    {
+      "name": "habilidades-de-arquetipo",
+      "label": "Habilidades de Arquétipo",
+      "system": "tormenta20",
+      "path": "packs/habilidades-de-arquetipo.db",
+      "entity": "Item"
+    },
+    {
+      "name": "itens",
+      "label": "Itens",
+      "system": "tormenta20",
+      "path": "packs/itens.db",
+      "entity": "Item"
+    },
+    {
+      "name": "magias",
+      "label": "Magias",
+      "system": "tormenta20",
+      "path": "packs/magias.db",
+      "entity": "Item"
+    },
+    {
+      "name": "melancolias",
+      "label": "Melancolias",
+      "system": "tormenta20",
+      "path": "packs/melancolias.db",
+      "entity": "Item"
+    },
+    {
+      "name": "origem",
+      "label": "Origem",
+      "system": "tormenta20",
+      "path": "packs/origem.db",
+      "entity": "Item"
+    },
+    {
+      "name": "poderes-concedidos",
+      "label": "Poderes Concedidos",
+      "system": "tormenta20",
+      "path": "packs/poderes-concedidos.db",
+      "entity": "Item"
+    },
+    {
+      "name": "poderes-de-legado",
+      "label": "Poderes de Legado",
+      "system": "tormenta20",
+      "path": "packs/poderes-de-legado.db",
+      "entity": "Item"
+    },
+    {
+      "name": "poderes-de-maldicoes",
+      "label": "Poderes de Maldições",
+      "system": "tormenta20",
+      "path": "packs/poderes-de-maldicoes.db",
+      "entity": "Item"
+    },
+    {
+      "name": "poderes-de-trilas",
+      "label": "Poderes de Trilhas",
+      "system": "tormenta20",
+      "path": "packs/poderes-de-trilas.db",
+      "entity": "Item"
+    },
+	{
+      "name": "mapas",
+      "label": "Mapas",
+      "system": "tormenta20",
+      "path": "packs/mapas.db",
+      "entity": "Scene"
+    }
+  ],
+  "url": "https://github.com/BTWings/skyfall-compendium",
+  "manifest": "",
+  "download": ""
+}
