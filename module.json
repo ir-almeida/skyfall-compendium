@@ -197,7 +197,7 @@
       "entity": "Scene"
     }
   ],
-  "url": "https://github.com/BTWings/skyfall-compendium",
-  "manifest": "",
+  "url": "https://github.com/ir-almeida/skyfall-compendium",
+  "manifest": "https://github.com/ir-almeida/skyfall-compendium/edit/main/module.json",
   "download": ""
 }
